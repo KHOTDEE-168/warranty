@@ -1,0 +1,132 @@
+
+
+@font-face {
+	font-family: "Chakra Petch";
+	/* src: url("../fonts/Chakra_Petch/ChakraPetch-Bold.ttf"); */
+	src: url("../fonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+	/* src: url("../fonts/Chakra_Petch/ChakraPetch-Light.ttf"); */
+}
+
+
+body , html, h4{
+	/* font-family: 'Sarabun', sans-serif !important; */
+	font-family: 'Chakra Petch', sans-serif !important;
+}
+
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.help-block {
+    display: block;
+    margin: 0;
+}
+
+.form-group.has-feedback.has-error.has-danger {
+	margin-bottom: 0;
+}
+
+ul.list-unstyled {
+    margin-top: 3px;
+}
+
+.nav-tabs-custom {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+.page-header {
+    padding-bottom: 0;
+    margin: 20px 0 10px;
+    border-bottom: 0;
+}
+
+.btn-box-tool
+{
+	 padding: 5px 18px;
+	     color: #fff;
+}
+.well{
+/* 	position: relative; */
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #3c8dbc;
+/*     margin-bottom: 20px; */
+/*     width: 100%; */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+ .section-preview .preview {
+    margin-bottom: 4em;
+    background-color: #eaf1f1;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+
+.section-preview .preview .options {
+    padding: 2em;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-top: none;
+    text-align: center;
+}
+
+.panel-heading{
+	  font-weight: bold;
+}
+
+
+
+.date .form-control[readonly]{
+   	 background-color: #ffffff;
+  }
+
+
+
+.blockUI h1{
+	margin-top: 10px;
+    font-size: 28px;
+}
+
+.sidebar-menu>li.header {
+/*     color: #CCCCCC !important; */
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  }
+
+.box-body {
+    padding: 20px;
+}
+
+.wrapper {
+
+	position: unset;
+}
+table.table-bordered > thead > tr > th{
+	border:1px solid black;
+}
+table.table-bordered{
+		border:1px solid black;
+		margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+		border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+		border:1px solid black;
+}
+.border-bottom{
+		border-bottom:2px solid black;
+}
